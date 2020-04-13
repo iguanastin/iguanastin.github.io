@@ -17,6 +17,10 @@
 			a {
 				color: #5f8be3;
 			}
+			main {
+				text-align: left;
+				margin: 5em;
+			}
 			a:hover, a:active {
 				color: #56cdd6;
 			}
@@ -34,12 +38,12 @@
 				background-color: #194354;
 				display: inline-block;
 			}
-			header h1, header h2, header h3 {
+			#header-title h1, #header-title h2, #header-title h3 {
 				font-style: italic;
 				text-align: center;
 				color: #cee7ed;
 			}
-			header h1 {
+			#header-title h1 {
 				font-style: normal;
 				font-size: 3em;
 				margin-bottom: 0;
@@ -47,11 +51,11 @@
 				text-shadow: 0.05em 0.075em #200f4a;
 				color: white;
 			}
-			header h2 {
+			#header-title h2 {
 				margin-top: 0.5em;
 				margin-bottom: 0;
 			}
-			header h3 {
+			#header-title h3 {
 				margin-top: 0.5em;
 				margin-bottom: 0;
 			}
@@ -117,7 +121,22 @@
 				</div>
 			</header>
 			
-			
+			<main>
+				<article>
+					<header><h1>Me</h1></header>
+					<content>
+						<p>Blurb about me, fill in</p><br>
+						<a href="/about">More about me</a>
+					</content>
+				</article>
+				
+				<article>
+					<header><h1>My Projects</h1></header>
+					<content>
+						<p></p>
+					</content>
+				</article>
+			</main>
 		
 			<footer>
 				<p>
