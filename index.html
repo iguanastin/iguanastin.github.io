@@ -1,106 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 	<head>
 		<title>Austin Thompson</title>
-		<script type="text/javascript" src="spamspan.js"></script> <!-- SpamSpan email obfuscation: https://www.spamspan.com/ -->
-		<style>
-			body {
-				background-image: url("background.jpg");
-				background-repeat: no-repeat;
-				background-size: cover;
-				background-position: center top;
-				text-align: center;
-				background-color: #17212c;
-				color: #cee7ed;
-			}
-			a {
-				color: #5f8be3;
-			}
-			main {
-				text-align: left;
-				margin: 5em;
-			}
-			article {
-				margin-top: 2em;
-				padding-bottom: 1em;
-				border-bottom: 1px solid #cee7ed;
-			}
-			a:hover, a:active {
-				color: #56cdd6;
-			}
-			#content {
-				width: 1000px;
-				display: inline-block;
-				background-color: #1d273b;
-				border-style: solid;
-				border-color: #160d2e;
-				margin: 1em;
-			}
-			#header-title {
-				margin: 1em;
-				padding: 1em 5em 1em 5em;
-				background-color: #194354;
-				display: inline-block;
-			}
-			#header-title h1, #header-title h2, #header-title h3 {
-				font-style: italic;
-				text-align: center;
-				color: #cee7ed;
-			}
-			#header-title h1 {
-				font-style: normal;
-				font-size: 3em;
-				margin-bottom: 0;
-				margin-top: 0;
-				text-shadow: 0.05em 0.075em #200f4a;
-				color: white;
-			}
-			#header-title h2 {
-				margin-top: 0.5em;
-				margin-bottom: 0;
-			}
-			#header-title h3 {
-				margin-top: 0.5em;
-				margin-bottom: 0;
-			}
-			footer {
-				margin: 5em;
-				text-align: right;
-			}
-			nav {
-				margin-top: 1em;
-			}
-			nav > ul {
-				margin: 0;
-				padding: 0;
-				list-style: none inside;
-			}
-			nav > ul > li {
-				display: inline-block;
-			}
-			nav a:link, nav a:visited {
-				margin: 0.25em;
-				background-color: #286f80;
-				padding: 0.5em;
-				color: white;
-			}
-			nav a:hover, nav a:active {
-				background-color: #5a819e;
-				color: #6cc2bd;
-			}
-			.flex-container {
-				display: flex;
-				align-content: center;
-			}
-			.flex-container::before, .flex-container::after {
-				content: "";
-				flex: 1;
-				border-bottom: 2px solid #cee7ed;
-				margin-left: 0.5em;
-				margin-right: 0.5em;
-			}
+		<script src="spamspan.js"></script> <!-- SpamSpan email obfuscation: https://www.spamspan.com/ -->
+		<style>			
+footer {
+	text-align: right;
+}
+#content > footer {
+	margin: 5em;
+}
 		</style>
+		<link rel="stylesheet" type="text/css" href="theme.css">
 	</head>
 
 
@@ -113,41 +25,31 @@
 					<h3>Colorado State University</h3>
 				</div>
 				<div class="flex-container">
-					<div/>
+					<div></div>
 					<nav>
 						<ul>
-							<li><a href="/about">About</a></li>
-							<li><a href="/projects">Projects</a></li>
-							<li><a href="/contact">Contact</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
-					<div/>
+					<div></div>
 				</div>
 			</header>
 			
 			<main>
+				<img style="width: 90%; margin-left: 5%" src="images/close-up-of-computer-keyboard-248515.jpg"/> <!-- Royalty free image, should probably use something else: https://www.pexels.com/photo/close-up-of-computer-keyboard-248515/ -->
+				
 				<article>
-					<header><h1>Austin Thompson</h1></header>
-					<content>
-						<img src="???" style="width: 200px; height 300px; background-color: #194354; display: inline-block;" alt="portrait of me"/> <!-- Don't have a decent picture of myself, yet -->
-						<p>A computer science major at Colorado State University in my final semester, I'm passionate about all things computer. I often create odd programming projects to in order to satisfy needs or interests, usually spending more time developing it than would have been needed to accomplish it manually.</p>
-						<a href="/about">See more about me</a>
-					</content>
+					<header><h2>Austin Thompson</h2></header>
+					<p>A Computer Science major at Colorado State University graduating in May 2020, I'm passionate about all things computer. I often create odd programming projects to in order to satisfy needs or interests, usually spending more time developing it than would have been needed to accomplish it manually.</p>
+					<footer><a href="about.html">More about me</a></footer>
 				</article>
 				
 				<article>
-					<header><h1>My Projects</h1></header>
-					<content>
-						<p>I've done a number of varied projects, both as assigned work and on my own time, in a variety of different languages. My interests tend to lie in desktop applications that with strong visual elements, with my most involved project being a highly responsive image management/organization application for local files.</p>
-						<a href="/projects">See my projects</a>
-					</content>
-				</article>
-				
-				<article>
-					<header><h1>Contact</h1></header>
-					<content>
-						<p>Want to get <a href="/contact">in contact with me?</a></p>
-					</content>
+					<header><h2>Projects</h2></header>
+					<p>I've done a variety of projects, both as assigned work and on my own time, in a few different languages. My interests tend to lie in desktop applications that with strong visual elements, with my most involved project being a highly responsive image management/organization application for local files.</p>
+					<footer><a href="projects.html">My projects</a></footer>
 				</article>
 			</main>
 		
