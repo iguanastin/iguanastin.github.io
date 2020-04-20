@@ -87,6 +87,12 @@ nav a:hover, nav a:active {
 	background-color: #5a819e;
 	color: #6cc2bd;
 }
+nav li.inactive a:link, nav li.inactive a:visited {
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+	background-color: #849194;
+}
 .flex-container {
 	display: flex;
 	align-content: center;
