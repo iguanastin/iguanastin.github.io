@@ -21,8 +21,12 @@ article {
 article > header {
 	border-top: 1px solid #cee7ed;
 }
+footer {
+	text-align: right;
+}
 #content > footer {
 	border-top: 1px solid #cee7ed;
+	margin: 5em;
 }
 a:hover, a:active {
 	color: #56cdd6;
@@ -33,7 +37,7 @@ a:hover, a:active {
 	background-color: #1d273b;
 	border-style: solid;
 	border-color: #160d2e;
-	margin: 1em;
+	margin: 4em;
 }
 #header-title {
 	margin: 1em;

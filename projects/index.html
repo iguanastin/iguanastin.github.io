@@ -5,16 +5,12 @@
 		<title>Austin Thompson</title>
 		<script src="../spamspan.js"></script> <!-- SpamSpan email obfuscation: https://www.spamspan.com/ -->
 		<link rel="stylesheet" type="text/css" href="../theme.css">
-		<style>			
-footer {
-	text-align: right;
-	border-top: ;
-}
-#content > footer {
-	margin: 5em;
-}
+		<style>
 h2 {
 	margin-bottom: 0em;
+}
+.languages {
+	color: #849194;
 }
 		</style>
 	</head>
@@ -42,8 +38,33 @@ h2 {
 			</header>
 			
 			<main>
-				<h2>Projects</h2><br>
-				<p>wip</p>
+				<h2>Projects</h2>
+				
+				<article>
+					<header><h3><img style="vertical-align: middle; margin-right: 0.5em;" src="../images/menagerie-32.png" alt="Menagerie icon" /> <a href="https://github.com/iguanastin/menagerie">Menagerie</a> - <span class="languages">Java, FXML, CSS</span></h3></header>
+					<p>A responsive local media file organization and management tool capable of complex tag searches, duplicate image detection, and slideshows and previewing among many other features. Menagerie is a long running project that has seen many iterations over the years.</p>
+					<img style="width: 90%; margin-left: 5%;" src="../images/menagerie-ss.jpg" alt="screenshot of Menagerie"/>
+				</article>
+				
+				<article>
+					<header><h3><img style="vertical-align: middle; margin-right: 0.5em;" src="../images/animtool-32.png" alt="Animtool icon" /> <a href="https://github.com/iguanastin/animtool">AnimTool</a> - <span class="languages">Java, FXML, CSS</span></h3></header>
+					<p>Born of a need for 2D digital animators to be able to preview animations made in software that does not support animation; AnimTool displays a live preview of an animation constructed of individual frames. Includes features such as GIF exporting, frame-by-frame navigation, and custom framerates</p>
+					<div style="text-align: center;"><img src="../images/animtool-ss.gif" alt="animated screenshot of AnimTool"/></div>
+				</article>
+				
+				<article>
+					<header><h3><a href="https://github.com/iguanastin/CudaHistDupe">CUDA Accelerated Histogram Similarity</a> - <span class="languages">CUDA, C++</span></h3></header>
+					<p>A CUDA GPU implementation of a set-to-set comparison of image color histograms by exploiting the high parallelism of the dataset. Produced a 50x improvement in performance, reducing runtime from approximately 414 seconds to 8 seconds on average.</p>
+				</article>
+				
+				<article>
+					<header><h3><a href="https://github.com/cs435-f19/flight-delay-prediction">Machine Learning Airline Flight Delay Predictions</a> - <span class="languages">Apache Spark, Java</span></h3></header>
+					<p>By training a Random Forest machine learning model with local weather data and flight cancellation history, we were able to produce predictions of delays for flights within 8 minutes of observed delay due to weather.</p>
+				</article>
+				
+				<article>
+					<header><h3><a href="https://github.com/iguanastin/">And more!</a></h3></header>
+				</article>
 			</main>
 		
 			<footer>
