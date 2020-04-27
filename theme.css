@@ -42,7 +42,7 @@ a:hover, a:active {
 #header-title {
 	margin: 1em;
 	padding: 1em 5em 1em 5em;
-	background-color: #194354;
+	background-color: #255a80;
 	display: inline-block;
 }
 #header-title h1, #header-title h2, #header-title h3 {
@@ -79,7 +79,7 @@ nav > ul > li {
 }
 nav a:link, nav a:visited {
 	margin: 0.25em;
-	background-color: #286f80;
+	background-color: #2f6d96;
 	padding: 0.5em;
 	color: white;
 }
